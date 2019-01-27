@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>东隅已逝丶</title>
   
-  
+  <subtitle>三年二班小十七同学</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="https://dongyuyishi.github.io/"/>
   <updated>2019-01-27T08:58:04.355Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>https://dongyuyishi.github.io/</id>
   
   <author>
     <name>小十七同学</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Third-order cube</title>
-    <link href="http://yoursite.com/2019/01/26/Third-order-cube/"/>
-    <id>http://yoursite.com/2019/01/26/Third-order-cube/</id>
+    <link href="https://dongyuyishi.github.io/2019/01/26/Third-order-cube/"/>
+    <id>https://dongyuyishi.github.io/2019/01/26/Third-order-cube/</id>
     <published>2019-01-26T01:50:02.000Z</published>
     <updated>2019-01-27T08:58:04.355Z</updated>
     
@@ -35,18 +35,18 @@
     </summary>
     
     
-      <category term="魔方" scheme="http://yoursite.com/tags/%E9%AD%94%E6%96%B9/"/>
+      <category term="魔方" scheme="https://dongyuyishi.github.io/tags/%E9%AD%94%E6%96%B9/"/>
     
-      <category term="学习" scheme="http://yoursite.com/tags/%E5%AD%A6%E4%B9%A0/"/>
+      <category term="学习" scheme="https://dongyuyishi.github.io/tags/%E5%AD%A6%E4%B9%A0/"/>
     
-      <category term="入门" scheme="http://yoursite.com/tags/%E5%85%A5%E9%97%A8/"/>
+      <category term="入门" scheme="https://dongyuyishi.github.io/tags/%E5%85%A5%E9%97%A8/"/>
     
   </entry>
   
   <entry>
     <title>about me</title>
-    <link href="http://yoursite.com/2019/01/25/about-me/"/>
-    <id>http://yoursite.com/2019/01/25/about-me/</id>
+    <link href="https://dongyuyishi.github.io/2019/01/25/about-me/"/>
+    <id>https://dongyuyishi.github.io/2019/01/25/about-me/</id>
     <published>2019-01-25T14:28:12.000Z</published>
     <updated>2019-01-26T02:37:42.474Z</updated>
     
@@ -62,16 +62,16 @@
     </summary>
     
     
-      <category term="介绍" scheme="http://yoursite.com/tags/%E4%BB%8B%E7%BB%8D/"/>
+      <category term="介绍" scheme="https://dongyuyishi.github.io/tags/%E4%BB%8B%E7%BB%8D/"/>
     
-      <category term="自我认知" scheme="http://yoursite.com/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
+      <category term="自我认知" scheme="https://dongyuyishi.github.io/tags/%E8%87%AA%E6%88%91%E8%AE%A4%E7%9F%A5/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2019/01/20/hello-world/"/>
-    <id>http://yoursite.com/2019/01/20/hello-world/</id>
+    <link href="https://dongyuyishi.github.io/2019/01/20/hello-world/"/>
+    <id>https://dongyuyishi.github.io/2019/01/20/hello-world/</id>
     <published>2019-01-20T03:19:29.474Z</published>
     <updated>2019-01-20T03:19:29.475Z</updated>
     
