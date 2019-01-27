@@ -71,7 +71,7 @@ ga('send', 'pageview');
 
 
   
-    <span id="toolbox-mobile" class="toolbox-mobile">盒子</span>
+    <span id="toolbox-mobile" class="toolbox-mobile">导航</span>
   
 
   <div class="content content-tag">
@@ -87,7 +87,7 @@ ga('send', 'pageview');
   
   <div class="toolbox">
     <a class="toolbox-entry" href="/">
-      <span class="toolbox-entry-text">盒子</span>
+      <span class="toolbox-entry-text">导航</span>
       <i class="icon-angle-down"></i>
       <i class="icon-home"></i>
     </a>
@@ -446,12 +446,22 @@ r()
 } (window, document);
 
 // 动态标题
-window.onfocus = function () {
-  document.title = '恢复正常了...';
+// window 失去焦点 
+window.onblur = function() { 
+document.title='(つ ェ ⊂)我藏好了哦~'; 
 };
-window.onblur = function () {
-  document.title = '快回来~页面崩溃了';
-};
+// window 获得焦点
+window.onfocus = function() { 
+document.title='┗|｀O′|┛ 嗷~~被发现了~'; 
+setTimeout("document.title='别看了,学习啦！'",3000); }
+
+<script src="js/activate-power-mode.js"></script>
+<script>
+POWERMODE.colorful = true; // 控制开启/开启礼花特效  
+POWERMODE.shake = true; // 控制开启/关闭屏幕震动特效  
+document.body.addEventListener('input', POWERMODE);
+</script>
+
 </script>
 
 </body>
