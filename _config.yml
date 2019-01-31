@@ -81,9 +81,9 @@ deploy:
   - type: git
     repository: git@github.com:dongyuyishi/dongyuyishi.github.io.git
     beanch: master
-  - type: git
-    repo: git@git.coding.net:dongyuyishi/blog.git
-    branch: gh-pages
+#  - type: git
+ #   repo: git@git.coding.net:dongyuyishi/blog.git
+   # branch: gh-pages
 
 # RSS订阅支持
 plugin:
@@ -94,3 +94,4 @@ feed:
 type: atom
 path: atom.xml
 limit: 20
+

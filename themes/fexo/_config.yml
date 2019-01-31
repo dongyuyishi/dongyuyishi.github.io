@@ -184,8 +184,8 @@ valine:
   pageSize: 10 # pagination size
 
 # Online contact 
-daovoice: true
-daovoice_app_id: 68f066ed
+# daovoice: true
+# daovoice_app_id: 68f066ed
 
 
 # 不算子,文章访问量统计和显示
