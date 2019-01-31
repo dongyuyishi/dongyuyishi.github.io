@@ -24,7 +24,7 @@
 <meta property="og:site_name" content="东隅已逝丶">
 <meta property="og:description" content="小苹果　　经过为期一个星期的煎熬，黑苹果终于达到能用的级别了，但是安装版本却是10.13.6，强迫症的我真的是忍不住想要升级Mojave，但是又害怕遇到各种奇形怪状的问题，所以我觉得还是有必要记录一下我当时是如何安装成功10.13.6这个版本的，毕竟如果14安装完蛋了，我还可以退而求其次～ 　　我就不废话刚开始直接安装14这个版本时遇到的问题了，虽然这一步浪费了劳资两天的时间，我直接说我是如何安装">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-31T05:50:24.000Z">
+<meta property="og:updated_time" content="2019-01-31T09:55:22.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hackintosh Problems">
 <meta name="twitter:description" content="小苹果　　经过为期一个星期的煎熬，黑苹果终于达到能用的级别了，但是安装版本却是10.13.6，强迫症的我真的是忍不住想要升级Mojave，但是又害怕遇到各种奇形怪状的问题，所以我觉得还是有必要记录一下我当时是如何安装成功10.13.6这个版本的，毕竟如果14安装完蛋了，我还可以退而求其次～ 　　我就不废话刚开始直接安装14这个版本时遇到的问题了，虽然这一步浪费了劳资两天的时间，我直接说我是如何安装">
@@ -178,7 +178,7 @@ ga('send', 'pageview');
     
       <h2 id="小苹果"><a href="#小苹果" class="headerlink" title="小苹果"></a>小苹果</h2><p>　　经过为期一个星期的煎熬，黑苹果终于达到能用的级别了，但是安装版本却是10.13.6，强迫症的我真的是忍不住想要升级Mojave，但是又害怕遇到各种奇形怪状的问题，所以我觉得还是有必要记录一下我当时是如何安装成功10.13.6这个版本的，毕竟如果14安装完蛋了，我还可以退而求其次～</p>
 <p>　　我就不废话刚开始直接安装14这个版本时遇到的问题了，虽然这一步浪费了劳资两天的时间，我直接说我是如何安装的10.13。</p>
-<h4 id="EFI文件"><a href="#EFI文件" class="headerlink" title="EFI文件"></a>EFI文件</h4><p>　　我是i5版的联想小新锐7000，网上逛了好几天，并没有发现适合我这个笔记本的efi文件，我只能找个类似的试试了，这个过程也是巨他妈的让人难受啊啊啊啊啊啊啊啊啊啊，最终我用了神舟的一个i5-7300hq的文件（<a href="https://github.com/sqlsec/clover）" target="_blank" rel="noopener">我是链接</a>)。但是这个文件也不是很适合我，安装时遇到了禁止符号，然后就花屏了，网上是<a href="https://www.zhihu.com/question/278127933" target="_blank" rel="noopener">这样</a>解决的，原因如下：</p>
+<h4 id="EFI文件"><a href="#EFI文件" class="headerlink" title="EFI文件"></a>EFI文件</h4><p>　　我是i5版的联想小新锐7000，网上逛了好几天，并没有发现适合我这个笔记本的efi文件，我只能找个类似的试试了，这个过程也是巨他妈的让人难受啊啊啊啊啊啊啊啊啊啊，最终我用了神舟的一个i5-7300hq的文件(<a href="https://github.com/sqlsec/clover" target="_blank" rel="noopener">我是链接</a> )。但是这个文件也不是很适合我，安装时遇到了禁止符号，然后就花屏了，网上是<a href="https://www.zhihu.com/question/278127933" target="_blank" rel="noopener">这样</a>解决的，原因如下：</p>
 <blockquote>
 <p>USB的问题，将Rehubman的USBInjectAll.kext和GenericUSBXHCI.kext放到kexts对应目录下就好了。</p>
 </blockquote>
